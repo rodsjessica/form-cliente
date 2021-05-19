@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+h1 {
+    color: #616161dc; 
+}
+label {
+    color: #616161;
+}
+
+input {
+    margin: 5px 10px 10px 5px;
+}
+/* begin-containers */
+.container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;  
+}
+
+.container-inline {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-field input {
+    align-items: center;
+}
+
+.container-field label {
+    margin-left: 5px;
+}
+/* end-containers */
+
+/* begin classes input */
+/* primeira linha */
+.nome {
+    flex: 5;
+}
+
+.documento {
+    flex: 2;
+}
+
+.data-nasc {
+    flex: 1;
+}
+/* segunda linha */
+.endereco {
+    flex: 4;
+}
+
+.bairro {
+    flex: 3;
+}
+
+.cep {
+    flex: 2;
+}
+
+.data-cad {
+    flex: 1;
+}
+/* terceira linha */
+.municipio {
+    flex: 2;
+}
+
+.tel {
+    flex: 2;
+}
+
+.cel {
+    flex: 2;
+}
+
+.uf1 {
+    flex: 1;
+}
+
+.insc-est {
+    flex: 2;
+}
+
+.uf2 {
+    flex: 2;
+}
+/* end classes input */
+
+
+/* begin-primeira linha input*/
+#nome {
+    margin:5px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#documento {
+margin-left:5px;
+height: 40px;
+padding: 5px 5px;
+border-radius: 3px;
+border: 1px solid #ccc;
+}
+
+#data-nasc {
+margin-left:5px;
+height: 40px;
+padding: 5px 5px;
+border-radius: 3px;
+border: 1px solid #ccc;
+}
+/* end-primeira linha */
+
+/* begin-segunda linha input*/
+#endereco {
+    margin-left:5px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#bairro {
+    margin-left:5px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#cep {
+    margin-left:5px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#data-cad {
+    margin-left:5px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+/* end-segunda linha */
+
+/* begin-terceira linha input*/
+#municipio {
+    margin-left:5px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#tel {
+    margin-left:5px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#cel {
+    margin-left:5px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 3px;  
+    border: 1px solid #ccc;
+}
+
+#uf1 {
+    margin-left:5px;
+    height: 40px;
+    padding: 5px 5px; 
+    border-radius: 3px; 
+    border: 1px solid #ccc;
+}
+
+#insc-est {
+    margin-left:5px;
+    height: 40px;
+    padding: 5px 5px; 
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#uf2 {
+    margin-left:5px;
+    height: 40px;
+    padding: 5px 5px; 
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+/* end-terceira linha */
+
+/* begin-btn */
+.button {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+#btn-salvar {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background-color: #1976d2;
+    border-style: solid;
+    border-color: #1976d2;
+    border-radius: 5px;
+
+}
+
+#btn-cancelar {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #9e9e9e;
+    background-color: #bdbdbd;
+}
+
+#btn-salvar:hover {
+opacity: 0.7;
+}
+
+#btn-cancelar:hover {
+    opacity: 0.7;
+    }
+/* end-btn */
+
+
