@@ -9,6 +9,9 @@ body{
 h1 {
     color: #616161cc; 
 }
+h2 {
+    color: red;
+}
 label {
     color: #616161;
 }
